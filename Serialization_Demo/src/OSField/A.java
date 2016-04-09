@@ -1,33 +1,11 @@
-import java.util.*;
-import java.io.*;
+package OSField;
 
-public class A implements Serializable
-{
-public  transient int i = 222;
-public	int j = 1;
+import java.io.ObjectStreamField;
+import java.io.Serializable;
 
+public class A implements Serializable {
+	public transient int i = 222;
+	public int j = 1;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-private static final ObjectStreamField[] serialPersistentFields = {
-	new ObjectStreamField("i", Integer.TYPE)
-	};	
+	private static final ObjectStreamField[] serialPersistentFields = { new ObjectStreamField("i", Integer.TYPE) };
 }
-
-

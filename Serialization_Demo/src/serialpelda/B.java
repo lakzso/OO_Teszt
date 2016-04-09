@@ -1,3 +1,4 @@
+package serialpelda;
 import java.util.*;
 import java.io.*;
 

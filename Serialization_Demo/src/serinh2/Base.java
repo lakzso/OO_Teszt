@@ -1,3 +1,4 @@
+package serinh2;
 class Base {
 	int code = 99;
 
