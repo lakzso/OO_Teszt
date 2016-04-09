@@ -1,0 +1,10 @@
+----------------------------------------------------------------
+Sat Apr 09 19:51:20 CEST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.8.2.2 - (1181258): instance a816c00e-0153-fc26-46f5-00000884b9e8 
+on database directory C:\home\vogella\databases\simpleDb  with class loader sun.misc.Launcher$AppClassLoader@73d16e93 
+Loaded from file:/C:/Users/lakzso/Desktop/OOT/jpa_lib/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_77-b03
+user.dir=C:\Users\lakzso\Desktop\OOT\ooterv_examples\JPA_Demo
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
