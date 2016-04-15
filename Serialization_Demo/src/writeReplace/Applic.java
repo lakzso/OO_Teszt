@@ -43,7 +43,7 @@ public class Applic
 			
 		closeDB();
 
-		a.i = 22;
+		//a.i = 22;
 			
 		initDB();
 		System.out.println("a.i= " + a.i);
