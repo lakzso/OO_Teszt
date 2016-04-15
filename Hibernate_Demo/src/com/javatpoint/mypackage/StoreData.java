@@ -29,10 +29,10 @@ public static void main(String[] args) {
     Transaction t=session.beginTransaction();  
           
     Employee e1=new Employee();  
-    e1.setId(117);  
-    e1.setFirstName("Zsolt2");  
-    e1.setLastName("Lakatos2");  
-    //session.persist(e1);
+    e1.setId(118);  
+    e1.setFirstName("Zsolt3");  
+    e1.setLastName("Lakatos3");  
+    session.persist(e1);
     Query q=session.createQuery("from Employee where LastName=:Name");
     q.setParameter("Name", "Lakatos");
     List l=q.list();
@@ -56,7 +56,7 @@ public static void main(String[] args) {
 	    	System.out.print(e.getFirstName()+e.getLastName());
 	    }
     
-    
+   
     t.commit();//transaction is committed  
 
     session.close();  

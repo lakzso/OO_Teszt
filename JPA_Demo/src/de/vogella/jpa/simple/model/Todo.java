@@ -3,11 +3,14 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.NamedQuery;
 
 @Entity
+@NamedQuery(name="findAll", query="select t from Todo t") 
 public class Todo {
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
+  
   private Long id;
   private String summary;
   private String description;
